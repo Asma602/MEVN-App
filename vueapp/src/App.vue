@@ -1,8 +1,11 @@
 <template>
   <div id="app" class="container-fluid p-0">
 
-<!--    <app-hello-world></app-hello-world>-->
-    <h1>Just a simple MEVN App with sql... </h1>
+
+    <ConfirmDialog></ConfirmDialog>
+
+
+    <!--    <app-hello-world></app-hello-world>-->
     <router-view></router-view>
 
 <!--    <h3>Test Input component</h3>-->
